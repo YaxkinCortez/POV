@@ -228,6 +228,7 @@ public class Sesion extends javax.swing.JFrame {
         }
     }
 
+    
     /**
      * @param args the command line arguments
      */
