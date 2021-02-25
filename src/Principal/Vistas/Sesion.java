@@ -25,7 +25,7 @@ public class Sesion extends javax.swing.JFrame {
      */
     public Sesion() {
         initComponents();
-        AWTUtilities.setWindowOpaque(this, false);
+//        AWTUtilities.setWindowOpaque(this, false);
         this.setLocationRelativeTo(null);
         PlaceHolder();
         this.setResizable(false);

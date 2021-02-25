@@ -6,7 +6,7 @@
 package Principal.Vistas;
 
 
-import com.sun.awt.AWTUtilities;
+//import com.sun.awt.AWTUtilities;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.Timer;
@@ -42,7 +42,7 @@ public class SplashScreen extends javax.swing.JFrame {
         t = new Timer(80, al);
         initComponents();
         t.start();
-        AWTUtilities.setWindowOpaque(this, false);
+        //AWTUtilities.setWindowOpaque(this, false);
         this.setSize(431, 237);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
